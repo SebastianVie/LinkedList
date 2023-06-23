@@ -38,7 +38,7 @@ list.Add(1);
 list.Add(2);
 list.Add(7);
 list.WriteInformation();
-```csharp
+
 This will create a linked list with the values 1, 2, and 7, and then print those values.
 ```csharp
 You can then insert a new value at a specific position:
