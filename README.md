@@ -1,58 +1,70 @@
-# Linked Integer List in C#
-This repository contains an implementation of a singly linked list data structure for storing integer values. The linked list is implemented in C#.
+# Linked List Implementation in C#
 
-Code Structure
-The code contains three classes: Program, IntNode, and LinkedIntList.
+This repository contains a simple, but powerful implementation of a singly Linked List in C#.
 
-Program: This is the entry point for the program where the LinkedIntList is being tested with various operations.
+## Features
 
-IntNode: This class represents a node in the linked list. Each IntNode contains an integer value and a reference to the next IntNode in the list.
+### IntNode Class
 
-LinkedIntList: This class implements the linked list and provides several methods for manipulating the list, such as adding and removing elements.
+This class represents a node in the Linked List. Each node has an integer value and a reference to the next node in the list.
 
-Linked List Operations
-The LinkedIntList provides the following operations:
+### LinkedIntList Class
 
-Add(int value): Adds a new integer to the end of the list.
+This class provides the functionality for the Linked List. Below are its methods:
 
-AddAtPosition(int value, int position): Inserts a new integer at a specific position in the list. Positions start at 0 (head of the list).
+- `Add(int value)`: This method allows you to add a new node with a specified value to the end of the list.
 
-Remove(): Removes the last element from the list. If the list is empty, no action is performed.
+- `AddAtPosition(int value, int position)`: This method allows you to add a new node with a specified value at a specific position in the list.
 
-RemoveValue(int value): Searches for the first occurrence of the provided value and removes it from the list. If the value is not found, no action is performed.
+- `Remove()`: This method removes the last node from the list.
 
-Clear(): Clears all elements from the list, making it an empty list.
+- `RemoveValue(int value)`: This method removes the first node in the list with the specified value.
 
-Contains(int value): Checks if the list contains the provided integer value. Returns true if the value is found, false otherwise.
+- `Clear()`: This method clears the list by setting the head to null.
 
-GetSize(): Returns the number of elements currently in the list.
+- `Contains(int value)`: This method checks if the list contains a node with the specified value.
 
-WriteInformation(): Prints all elements in the list to the console.
+- `GetSize()`: This method returns the size of the list (i.e., the number of nodes).
 
-Usage Example
-Here is a basic example of using the LinkedIntList:
+- `WriteInformation()`: This method prints out all the values in the list.
 
-csharp
-Copy code
+## Usage
+
+To use this Linked List implementation, you just need to create an instance of the `LinkedIntList` class. Then, you can call its methods to manipulate the list.
+
+```csharp
 LinkedIntList list = new LinkedIntList();
 list.Add(1);
 list.Add(2);
 list.Add(7);
+list.WriteInformation();
 
-list.WriteInformation();  // Prints: 1, 2, 7
+This will create a linked list with the values 1, 2, and 7, and then print those values.
 
+You can then insert a new value at a specific position:
 list.AddAtPosition(12, 1);
-list.WriteInformation();  // Prints: 1, 12, 2, 7
+list.WriteInformation();
 
-int size = list.GetSize();
-Console.WriteLine(size);  // Prints: 4
+This inserts the value 12 at the second position of the list and then prints the updated list.
 
+You can also remove nodes from the list:
 list.Remove();
-list.WriteInformation();  // Prints: 1, 12, 2
-
 list.RemoveValue(2);
-list.WriteInformation();  // Prints: 1, 12
+list.WriteInformation();
 
+This removes the last node from the list, removes the first node with the value 2, and then prints the updated list.
+
+You can clear the entire list as follows:
 list.Clear();
-list.WriteInformation();  // Prints nothing
-This Linked List implementation aims to provide a simple and intuitive way of handling a singly linked list in C#. It is perfect for educational purposes as well as to be used in larger projects. Feel free to clone, explore and experiment with the code!
+list.WriteInformation();
+
+This will clear the list and then try to print the list (which will now be empty).
+
+Finally, you can retrieve the size of the list:
+int size = list.GetSize();
+Console.WriteLine(size);
+
+This will print the size of the list.
+
+##Creator
+Sebastian Viehhofer
