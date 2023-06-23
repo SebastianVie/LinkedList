@@ -38,33 +38,33 @@ list.Add(1);
 list.Add(2);
 list.Add(7);
 list.WriteInformation();
-
+```
 This will create a linked list with the values 1, 2, and 7, and then print those values.
 ```csharp
 You can then insert a new value at a specific position:
 list.AddAtPosition(12, 1);
 list.WriteInformation();
-```csharp
+```
 This inserts the value 12 at the second position of the list and then prints the updated list.
 ```csharp
 You can also remove nodes from the list:
 list.Remove();
 list.RemoveValue(2);
 list.WriteInformation();
-```csharp
+```
 This removes the last node from the list, removes the first node with the value 2, and then prints the updated list.
 ```csharp
 You can clear the entire list as follows:
 list.Clear();
 list.WriteInformation();
-```csharp
+```
 This will clear the list and then try to print the list (which will now be empty).
 ```csharp
 Finally, you can retrieve the size of the list:
 int size = list.GetSize();
 Console.WriteLine(size);
-```csharp
+```
 This will print the size of the list.
 
-##Creator
+## Creator
 Sebastian Viehhofer
