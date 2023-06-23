@@ -1,0 +1,15 @@
+C:\Users\sebas\Documents\LinkedListAssignment\bin\Debug\net6.0\LinkedListAssignment.exe
+C:\Users\sebas\Documents\LinkedListAssignment\bin\Debug\net6.0\LinkedListAssignment.deps.json
+C:\Users\sebas\Documents\LinkedListAssignment\bin\Debug\net6.0\LinkedListAssignment.runtimeconfig.json
+C:\Users\sebas\Documents\LinkedListAssignment\bin\Debug\net6.0\LinkedListAssignment.dll
+C:\Users\sebas\Documents\LinkedListAssignment\bin\Debug\net6.0\LinkedListAssignment.pdb
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.csproj.AssemblyReference.cache
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.AssemblyInfoInputs.cache
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.AssemblyInfo.cs
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.dll
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\refint\LinkedListAssignment.dll
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.pdb
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\LinkedListAssignment.genruntimeconfig.cache
+C:\Users\sebas\Documents\LinkedListAssignment\obj\Debug\net6.0\ref\LinkedListAssignment.dll
